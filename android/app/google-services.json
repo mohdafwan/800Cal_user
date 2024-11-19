@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "502803451265",
+    "project_id": "cal-f46eb",
+    "storage_bucket": "cal-f46eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502803451265:android:7323d55cadb32aca6d2c80",
+        "android_client_info": {
+          "package_name": "com.eighthundredcal.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502803451265-f49lkkqovckaj9b0ql75noi8pjl3vv95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfg0_njkogWvr6U8VQyljhzDKpkCDqoAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502803451265-f49lkkqovckaj9b0ql75noi8pjl3vv95.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "502803451265-9hlltiqaod3a7bst0me6edjskae052ui.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.eighthundredcal.user"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

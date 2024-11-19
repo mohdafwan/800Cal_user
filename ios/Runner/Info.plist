@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>800Cal</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>eight_hundred_cal</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.502803451265-fr1tf47j49mibjdlrmlvdh8rff14h5n9</string>
+			</array>
+		</dict>
+		<!-- Facebook Login -->
+	<dict>
+		<key>CFBundleURLSchemes</key>
+		<array>
+		<string>fb1286967009092859</string>
+		</array>
+	</dict>
+	</array>
+
+	<!-- Google OAuth Configuration -->
+	<key>GIDClientID</key>
+	<string>502803451265-fr1tf47j49mibjdlrmlvdh8rff14h5n9.apps.googleusercontent.com</string>
+
+	<!-- Facebook OAuth Configuration -->
+	<key>FacebookAppID</key>
+	<string>1286967009092859</string>
+	<key>FacebookClientToken</key>
+	<string>5a861fc3c4c3f4ff723503bb2493ded1</string>
+	<key>FacebookDisplayName</key>
+	<string>Eight Hundred Cal</string>
+
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+	<string>fbapi</string>
+	<string>fb-messenger-share-api</string>
+	<string>google</string>
+	<string>googlechrome</string>
+	<string>googlechrome-x-callback</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+    <string>800Cal requires access to your photo library to allow you to upload images for your profile, meals, and other customizations.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>800Cal requires access to your microphone for voice input features, such as voice commands.</string>
+    <key>NSCameraUsageDescription</key>
+	<string>800Cal requires access to your camera to take photos for meal tracking, profile customization.</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>
